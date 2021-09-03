@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages={"controllers"})
+@ComponentScan("com.example.Web_site_blog.controllers")
 public class WebSiteBlogApplication {
 
 	public static void main(String[] args) {
